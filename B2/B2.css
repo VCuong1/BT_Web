@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  .form-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(236, 232, 227);
+    border: 2px solid #ccc;
+  }
+
+  .form-section h3 {
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  .form-row {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+
+  .form-row label {
+    width: 150px;
+    font-weight: bold;
+  }
+
+  .form-row input,
+  .form-row select, textarea,theEND {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-row textarea {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+  }
+
+  .form-row input[type="radio"] {
+    width: auto;
+  }
+
+  
+
+  .radio-group label {
+    display: block;
+  }
