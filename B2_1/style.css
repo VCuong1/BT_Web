@@ -1,0 +1,59 @@
+.box{
+    border: solid 1px black;
+    padding: 10px;
+    margin: auto;
+    max-width: 600px;
+}
+h3{
+    margin-left: 25px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input{
+    padding: 15px 0;
+
+}
+.text_left{
+    margin-left: 25px;
+    padding-right: 75px;
+    padding-left: 10px;
+}
+.text_right{
+    margin-right: 25px;
+    padding-right: 75px;
+    padding-left: 10px;
+}
+.text_max{
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-right: 372px;
+    padding-left: 10px;
+}
+.area{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 548px;
+    height: 150px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: rgb(10, 104, 159);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flex_4{
+    display: flex ;
+    justify-content: space-between;
+}
+p{
+    margin-right: 20px;
+ 
+}
+

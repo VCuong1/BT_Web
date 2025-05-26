@@ -1,0 +1,111 @@
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 450px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d82b7;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #b6d4fe;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#add-task-btn {
+    padding: 10px 16px;
+    background: #2d82b7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#add-task-btn:hover {
+    background: #206b99;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.filter-btn {
+    background: #e9ecef;
+    border: none;
+    border-radius: 5px;
+    margin: 0 4px;
+    padding: 7px 15px;
+    cursor: pointer;
+    color: #2d82b7;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.filter-btn.active, .filter-btn:hover {
+    background: #2d82b7;
+    color: #fff;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7fafc;
+    border: 1px solid #e3e6ea;
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    transition: background 0.2s;
+}
+.task-title {
+    flex: 1;
+    font-size: 1.05rem;
+    color: #333;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s;
+}
+.task-title.completed {
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+.delete-btn {
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.delete-btn:hover {
+    background: #d90429;
+}
